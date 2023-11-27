@@ -1,0 +1,27 @@
+
+server:
+  port: 8080
+spring:
+  application:
+    name: product-catalog
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/productDatabase
+    password: root
+    username: root
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+info:
+  app:
+    name: Your Spring Boot App
+    description: A sample Spring Boot application
+    version: 1.0.0
+    author: Your Name
+
+example:
+  property: I AM THE DEFAULT
