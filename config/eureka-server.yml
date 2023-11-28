@@ -1,6 +1,8 @@
 server:
   port: 8070
   waitTimeInMsWhenSyncEmpty: 5
+  servlet:
+    context-path: /eureka
 eureka:
   instance:
     hostname: localhost
