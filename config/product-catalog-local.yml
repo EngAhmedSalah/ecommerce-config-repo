@@ -10,6 +10,15 @@ spring:
     password: root
     username: root
 
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/
+
 management:
   endpoints:
     web:
