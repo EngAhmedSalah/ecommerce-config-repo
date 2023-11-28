@@ -3,10 +3,10 @@ server:
   port: 8081
 spring:
   application:
-    name: user-service
+    name: product-catalog
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3307/userDatabase
+    url: jdbc:mysql://localhost:3307/productDatabase
     password: {cipher} ee0e617e68bccf0bdfb8580700f65f5f39744c72ba08c32541b3a9ef66595879
     username: root
 
